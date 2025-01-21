@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EFFB91D82D3FD2EB00FDF3CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFFB91B92D3FD2EA00FDF3CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFB91C02D3FD2EA00FDF3CF;
+			remoteInfo = sdui_app;
+		};
+		EFFB91E22D3FD2EB00FDF3CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFFB91B92D3FD2EA00FDF3CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFB91C02D3FD2EA00FDF3CF;
+			remoteInfo = sdui_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFFB91C12D3FD2EA00FDF3CF /* sdui_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdui_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFB91D72D3FD2EB00FDF3CF /* sdui_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sdui_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFB91E12D3FD2EB00FDF3CF /* sdui_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sdui_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EFFB91E92D3FD2EB00FDF3CF /* Exceptions for "sdui_app" folder in "sdui_app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EFFB91C02D3FD2EA00FDF3CF /* sdui_app */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFFB91C32D3FD2EA00FDF3CF /* sdui_app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EFFB91E92D3FD2EB00FDF3CF /* Exceptions for "sdui_app" folder in "sdui_app" target */,
+			);
+			path = sdui_app;
+			sourceTree = "<group>";
+		};
+		EFFB91DA2D3FD2EB00FDF3CF /* sdui_appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sdui_appTests;
+			sourceTree = "<group>";
+		};
+		EFFB91E42D3FD2EB00FDF3CF /* sdui_appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sdui_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFB91BE2D3FD2EA00FDF3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFB91D42D3FD2EB00FDF3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFB91DE2D3FD2EB00FDF3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFFB91B82D3FD2EA00FDF3CF = {
+			isa = PBXGroup;
+			children = (
+				EFFB91C32D3FD2EA00FDF3CF /* sdui_app */,
+				EFFB91DA2D3FD2EB00FDF3CF /* sdui_appTests */,
+				EFFB91E42D3FD2EB00FDF3CF /* sdui_appUITests */,
+				EFFB91C22D3FD2EA00FDF3CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFB91C22D3FD2EA00FDF3CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFB91C12D3FD2EA00FDF3CF /* sdui_app.app */,
+				EFFB91D72D3FD2EB00FDF3CF /* sdui_appTests.xctest */,
+				EFFB91E12D3FD2EB00FDF3CF /* sdui_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFFB91C02D3FD2EA00FDF3CF /* sdui_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFB91EA2D3FD2EB00FDF3CF /* Build configuration list for PBXNativeTarget "sdui_app" */;
+			buildPhases = (
+				EFFB91BD2D3FD2EA00FDF3CF /* Sources */,
+				EFFB91BE2D3FD2EA00FDF3CF /* Frameworks */,
+				EFFB91BF2D3FD2EA00FDF3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFFB91C32D3FD2EA00FDF3CF /* sdui_app */,
+			);
+			name = sdui_app;
+			packageProductDependencies = (
+			);
+			productName = sdui_app;
+			productReference = EFFB91C12D3FD2EA00FDF3CF /* sdui_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFFB91D62D3FD2EB00FDF3CF /* sdui_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFB91EF2D3FD2EB00FDF3CF /* Build configuration list for PBXNativeTarget "sdui_appTests" */;
+			buildPhases = (
+				EFFB91D32D3FD2EB00FDF3CF /* Sources */,
+				EFFB91D42D3FD2EB00FDF3CF /* Frameworks */,
+				EFFB91D52D3FD2EB00FDF3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFFB91D92D3FD2EB00FDF3CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFFB91DA2D3FD2EB00FDF3CF /* sdui_appTests */,
+			);
+			name = sdui_appTests;
+			packageProductDependencies = (
+			);
+			productName = sdui_appTests;
+			productReference = EFFB91D72D3FD2EB00FDF3CF /* sdui_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFFB91E02D3FD2EB00FDF3CF /* sdui_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFB91F22D3FD2EB00FDF3CF /* Build configuration list for PBXNativeTarget "sdui_appUITests" */;
+			buildPhases = (
+				EFFB91DD2D3FD2EB00FDF3CF /* Sources */,
+				EFFB91DE2D3FD2EB00FDF3CF /* Frameworks */,
+				EFFB91DF2D3FD2EB00FDF3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFFB91E32D3FD2EB00FDF3CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFFB91E42D3FD2EB00FDF3CF /* sdui_appUITests */,
+			);
+			name = sdui_appUITests;
+			packageProductDependencies = (
+			);
+			productName = sdui_appUITests;
+			productReference = EFFB91E12D3FD2EB00FDF3CF /* sdui_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFB91B92D3FD2EA00FDF3CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EFFB91C02D3FD2EA00FDF3CF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EFFB91D62D3FD2EB00FDF3CF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EFFB91C02D3FD2EA00FDF3CF;
+					};
+					EFFB91E02D3FD2EB00FDF3CF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EFFB91C02D3FD2EA00FDF3CF;
+					};
+				};
+			};
+			buildConfigurationList = EFFB91BC2D3FD2EA00FDF3CF /* Build configuration list for PBXProject "sdui_app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFFB91B82D3FD2EA00FDF3CF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFFB91C22D3FD2EA00FDF3CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFB91C02D3FD2EA00FDF3CF /* sdui_app */,
+				EFFB91D62D3FD2EB00FDF3CF /* sdui_appTests */,
+				EFFB91E02D3FD2EB00FDF3CF /* sdui_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFB91BF2D3FD2EA00FDF3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFB91D52D3FD2EB00FDF3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFB91DF2D3FD2EB00FDF3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFB91BD2D3FD2EA00FDF3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFB91D32D3FD2EB00FDF3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFB91DD2D3FD2EB00FDF3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFFB91D92D3FD2EB00FDF3CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFFB91C02D3FD2EA00FDF3CF /* sdui_app */;
+			targetProxy = EFFB91D82D3FD2EB00FDF3CF /* PBXContainerItemProxy */;
+		};
+		EFFB91E32D3FD2EB00FDF3CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFFB91C02D3FD2EA00FDF3CF /* sdui_app */;
+			targetProxy = EFFB91E22D3FD2EB00FDF3CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFFB91EB2D3FD2EB00FDF3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sdui_app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renantoniolo.sdui-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFFB91EC2D3FD2EB00FDF3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sdui_app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renantoniolo.sdui-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFFB91ED2D3FD2EB00FDF3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFFB91EE2D3FD2EB00FDF3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFFB91F02D3FD2EB00FDF3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renantoniolo.sdui-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sdui_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sdui_app";
+			};
+			name = Debug;
+		};
+		EFFB91F12D3FD2EB00FDF3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renantoniolo.sdui-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sdui_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sdui_app";
+			};
+			name = Release;
+		};
+		EFFB91F32D3FD2EB00FDF3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renantoniolo.sdui-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sdui_app;
+			};
+			name = Debug;
+		};
+		EFFB91F42D3FD2EB00FDF3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renantoniolo.sdui-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sdui_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFB91BC2D3FD2EA00FDF3CF /* Build configuration list for PBXProject "sdui_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFB91ED2D3FD2EB00FDF3CF /* Debug */,
+				EFFB91EE2D3FD2EB00FDF3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFB91EA2D3FD2EB00FDF3CF /* Build configuration list for PBXNativeTarget "sdui_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFB91EB2D3FD2EB00FDF3CF /* Debug */,
+				EFFB91EC2D3FD2EB00FDF3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFB91EF2D3FD2EB00FDF3CF /* Build configuration list for PBXNativeTarget "sdui_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFB91F02D3FD2EB00FDF3CF /* Debug */,
+				EFFB91F12D3FD2EB00FDF3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFB91F22D3FD2EB00FDF3CF /* Build configuration list for PBXNativeTarget "sdui_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFB91F32D3FD2EB00FDF3CF /* Debug */,
+				EFFB91F42D3FD2EB00FDF3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFFB91B92D3FD2EA00FDF3CF /* Project object */;
+}
