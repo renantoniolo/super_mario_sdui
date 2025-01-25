@@ -10,6 +10,7 @@ import Foundation
 final class GameInteractor {
     
     private let presenter: GamePresenter
+    // #### URL onde se encontra os json da pasta Mock
     private let service: RestApiService = RestApiService(urlString: "https://run.mocky.io/v3/9b9aa8ae-82cc-4765-8e0a-e0444a300aca")//"https://run.mocky.io/v3/464791de-269a-44f1-be61-63e5e274a929")
     
     init(presenter: GamePresenter) {
