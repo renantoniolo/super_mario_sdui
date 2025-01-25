@@ -1,0 +1,94 @@
+{
+  "screen": {
+    "id": "home_screen",
+    "title": "Game",
+    "components": [
+      {
+        "type": "label",
+        "id": "label_scorre",
+        "name": "MARIO",
+        "value": "MARIO",
+        "style": {
+          "color": "white",
+          "textAlignment": "center",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre",
+        "name": "WORLD",
+        "value": "WORLD",
+        "style": {
+          "color": "white",
+          "textAlignment": "center",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre",
+        "name": "JUMP",
+        "value": "JUMP",
+        "style": {
+          "color": "white",
+          "textAlignment": "center",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre_value",
+        "name": "NAME",
+        "value": "1",
+        "style": {
+          "color": "white",
+          "textAlignment": "center",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre_value",
+        "name": "WORLD",
+        "value": "1-1",
+        "style": {
+          "color": "white",
+          "textAlignment": "center",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre_value",
+        "name": "JUMP",
+        "value": "0",
+        "style": {
+          "color": "white",
+          "textAlignment": "center",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "image",
+        "id": "background",
+        "name": "background"
+      },
+      {
+        "type": "image",
+        "id": "character",
+        "name": "mario"
+      },
+      {
+        "type": "background_color",
+        "id": "view_eart",
+        "value": "brown"
+      },
+      {
+        "type": "background_color",
+        "id": "view_gram",
+        "value": "granGreen"
+      }
+    ]
+  }
+}

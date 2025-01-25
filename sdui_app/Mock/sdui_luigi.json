@@ -1,0 +1,94 @@
+{
+  "screen": {
+    "id": "home_screen",
+    "title": "Game",
+    "components": [
+      {
+        "type": "label",
+        "id": "label_scorre",
+        "name": "LUIGI",
+        "value": "LUIGI",
+        "style": {
+          "color": "red",
+          "textAlignment": "left",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre",
+        "name": "WORLD",
+        "value": "WORLD",
+        "style": {
+          "color": "red",
+          "textAlignment": "left",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre",
+        "name": "JUMP",
+        "value": "JUMP",
+        "style": {
+          "color": "red",
+          "textAlignment": "left",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre_value",
+        "name": "NAME",
+        "value": "1",
+        "style": {
+          "color": "red",
+          "textAlignment": "left",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre_value",
+        "name": "WORLD",
+        "value": "1-1",
+        "style": {
+          "color": "red",
+          "textAlignment": "left",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "label",
+        "id": "label_scorre_value",
+        "name": "JUMP",
+        "value": "0",
+        "style": {
+          "color": "red",
+          "textAlignment": "left",
+          "bold": "true"
+        }
+      },
+      {
+        "type": "image",
+        "id": "background",
+        "name": "background_castle"
+      },
+      {
+        "type": "image",
+        "id": "character",
+        "name": "luiggi"
+      },
+      {
+        "type": "background_color",
+        "id": "view_eart",
+        "value": "gray"
+      },
+      {
+        "type": "background_color",
+        "id": "view_gram",
+        "value": "darkGray"
+      }
+    ]
+  }
+}
